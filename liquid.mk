@@ -25,9 +25,6 @@ $(call inherit-product, device/lge/mako/full_mako.mk)
 # phone
 $(call inherit-product, vendor/liquid/config/common_phone.mk)
 
-# telephony
-$(call inherit-product, vendor/liquid/config/common_gsm.mk)
-
 # Enhanced NFC
 $(call inherit-product, vendor/liquid/config/nfc_enhanced.mk)
 
