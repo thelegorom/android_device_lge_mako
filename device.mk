@@ -281,6 +281,10 @@ PRODUCT_PACKAGES += \
 # QRNGD
 PRODUCT_PACKAGES += qrngd
 
+# OTA ID
+PRODUCT_PROPERTY_OVERRIDES += \
+    otaupdater.otaid=liquidmako
+
 $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 
 # This is the mako-specific audio package
