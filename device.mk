@@ -246,6 +246,7 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 
 PRODUCT_PROPERTY_OVERRIDES += \
 	telephony.lteOnCdmaDevice=0
+	telephony.lteOnGsmDevice=1
 
 PRODUCT_PROPERTY_OVERRIDES += \
 	drm.service.enabled=true
