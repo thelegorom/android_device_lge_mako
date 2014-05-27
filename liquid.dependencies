@@ -6,7 +6,7 @@
    "revision": "cm-11.0"
  },
  {
-   "remote": "ls",
+   "remote": "lsd",
    "repository": "proprietary_vendor_lge",
    "target_path": "vendor/lge",
    "revision": "kitkat"
